@@ -33,12 +33,12 @@ public class Main {
         swap(a, b);
         System.out.println("After:  a=" + a.get() + ", b=" + b.get() + "\n");
 
-        //WildCard + Pokemon Team Printer
+        //Pokemon Team Printer
         List<Pokemon> team = new ArrayList<>();
         team.add(pikachu);
         team.add(charmander);
         printTeam(team);
-        //Battle Pokemon Printer
+        //Battle Pokemon Team Printer
         List<BattlePokemon> battle = new ArrayList<>();
         battle.add(new BattlePokemon("Samurott", "Water", 95));
         battle.add(new BattlePokemon("Typhlosion", "Fire", 78));
@@ -51,8 +51,8 @@ public class Main {
     }
 
     public static void printTeam(java.util.List<? extends Pokemon> Team) {
-        for (Pokemon p : Team) {
-            System.out.println(p);
+        for (Pokemon poke : Team) {
+            System.out.println(poke);
         }
         System.out.println();
     }
