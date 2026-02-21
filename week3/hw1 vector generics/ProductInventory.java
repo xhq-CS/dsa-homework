@@ -113,10 +113,11 @@ public class ProductInventory {
     }
 
     public void printAllProducts() {
-        if (products.isEmpty()) {
+        if (products == null || products.isEmpty()) {
             System.out.println("No Product Found");
             return;
         }
+        System.out.printf("--------------------------------------------------------------------------------------------%n");
         System.out.printf("| %-10s | %-15s | %-15s | %-10s | %-8s | %-15s |%n", "ID", "Name", "Category", "Price", "Stock", "Supplier");
         System.out.printf("--------------------------------------------------------------------------------------------%n");
         for (Product p : products) {
@@ -144,5 +145,12 @@ public class ProductInventory {
         }
         System.out.println("Current Size: " + products.size());
         System.out.println("Current Capacity: " + products.capacity());
+    }
+
+    public void optimizeCapacity() {
+        if (products == null) {
+            System.out.println("No Inventory Found");
+        }
+        
     }
 }
