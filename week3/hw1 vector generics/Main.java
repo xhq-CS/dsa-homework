@@ -2,7 +2,7 @@ import java.util.Vector;
 
 public class Main {
     public static void main(String[] args) {
-        //Product Inventory Test
+        //----------------- Product Inventory Test -----------------
         ProductInventory inventory = new ProductInventory();
 
         inventory.addProduct(new Product("P001", "Laptop", "Electronics", 999.99, 10, "TechCorp"));
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("Total inventory value: $" + inventory.getTotalInventoryValue() + "\n");
 
-        //Order Manager Test
+        //----------------- Order Manager Test -----------------
         OrderManager orderManager = new OrderManager();
 
         Order order1 = new Order("O001", "Alice", "2024-01-15", "Delivered");
@@ -35,5 +35,38 @@ public class Main {
         orderManager.printAllOrders();
         System.out.println("Total revenue: $" + orderManager.getTotalRevenue());
 
+        //----------------- Generic Container Test -----------------
+        GenericContainer<String> stringContainer = new GenericContainer<>();
+        stringContainer.add("Six");
+        stringContainer.add("Seven");
+        System.out.println("String size: " + stringContainer.size());
+        System.out.println("String get(0): " + stringContainer.get(0));
+        System.out.println("String contains: " + stringContainer.contains("Seven"));
+        System.out.println("String removed: " + stringContainer.remove("Seven"));
+        System.out.println("String size after remove: " + stringContainer.size() + "\n");
+
+        GenericContainer<Integer> intContainer = new GenericContainer<>();
+        intContainer.add(6);
+        intContainer.add(7);
+        System.out.println("Int size: " + intContainer.size());
+        System.out.println("Int get(index): " + intContainer.get(1));
+        System.out.println("Int contains 7: " + intContainer.contains(7) + "\n");
+
+        GenericContainer<Product> productContainer = new GenericContainer<>();
+        productContainer.add(new Product("B123", "Poland Spring", "Beverage", 1.89, 36, "WaterBoy"));
+        productContainer.add(new Product("AP101", "Laptop", "Electronics", 599.99, 2, "ElectroBoy"));
+        System.out.println("Product size: " + productContainer.size());
+        System.out.println("Product get(index): " + productContainer.get(0));
+
+        productContainer.clear();
+        System.out.println("Product after clear: " + productContainer.size() + "\n");
+
+        //----------------- VectorUtils sumNumber & averageNumber Test -----------------
+        Vector<Integer> ints = new Vector<>();
+        ints.add(10);
+        ints.add(20);
+        ints.add(30);
+        System.out.println("Sum: " + VectorUtils.sumNumbers(ints));  // 60.0
+        System.out.println("Average: " + VectorUtils.averageNumbers(ints));  // 20.0
     }
 }

@@ -1,4 +1,5 @@
 import java.util.Vector;
+import java.util.Enumeration;
 
 public class ProductInventory {
     private Vector<Product> products;
@@ -128,7 +129,7 @@ public class ProductInventory {
                     p.getProductId(), p.getName(), p.getCategory(),
                     p.getPrice(), p.getQuantityInStock(), p.getSupplier());
         }
-        System.out.printf("--------------------------------------------------------------------------------------------%n");
+        System.out.printf("--------------------------------------------------------------------------------------------%n\n");
     }
 
     public int getTotalProducts() {
@@ -149,8 +150,51 @@ public class ProductInventory {
 
     public void optimizeCapacity() {
         if (products == null) {
-            System.out.println("No Inventory Found");
+            System.out.println("No Inventory To Optimize");
+            return;
         }
-        
+        products.trimToSize();
+    }
+
+    public void ensureCapacity(int minCapacity) {
+        if (products == null) {
+            System.out.println("No Inventory To Ensure");
+            return;
+        }
+        if (minCapacity <= 0) {
+            return;
+        }
+        products.ensureCapacity(minCapacity);
+    }
+
+    public void printCapacityReport() {
+        if (products == null) {
+            System.out.println("No Inventory To Print");
+            return;
+        }
+        int size = products.size();
+        int cap = products.capacity();
+        double usage = (cap == 0) ? 0.0 : ((double) size / cap) * 100;
+
+        System.out.println("Current Size: " + size);
+        System.out.println("Current Capacity: " + cap);
+        System.out.printf("Capacity Utilization: %.2f%%%n", usage);
+        System.out.println("Remaining Elements Before Resize: " + (cap - size));
+    }
+
+    /*Enumeration is older and was designed for early Vector, Hashtable, and Stack.
+      Iterator is more modern with wider range of collection classes. I'd use enumeration when working with legacy code.*/
+    public void printProductsUsingEnumeration() {
+        if (products == null || products.isEmpty()) {
+            System.out.println("No Inventory To Print(Enumeration)");
+            return;
+        }
+        Enumeration<Product> e = products.elements();
+        while (e.hasMoreElements()) {
+            Product product = e.nextElement();
+            if (product != null) {
+                System.out.println(product);
+            }
+        }
     }
 }

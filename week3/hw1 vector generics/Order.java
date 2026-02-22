@@ -77,16 +77,14 @@ public class Order {
         return total;
     }
 
-    public void updateStatus(String newStatus) {
-        this.orderStatus = newStatus;
-    }
+    public void updateStatus(String newStatus) {this.orderStatus = newStatus;}
 
     public void printOrder() {
-        if (items.isEmpty() || items == null) {
+        if (items == null) {
             System.out.println("No items in order");
             return;
         }
-        System.out.println("Order ID: " + orderId + " | Customer Name: " +  customerName + " | Order Date: " + orderDate);
+        System.out.println("Order ID: " + orderId + " | Customer Name: " +  customerName + " | Order Date: " + orderDate + " | Order Status: " + orderStatus);
         System.out.printf("-------------------------------------------------------------------------%n");
         System.out.printf("| %-10s | %-16s | %-10s | %-10s | %-8s |%n", "Product ID:", "Product Name:", "Quantity:", "Unit Price:", "Subtotal:");
         System.out.printf("-------------------------------------------------------------------------%n");
@@ -98,7 +96,8 @@ public class Order {
         }
         System.out.printf("-------------------------------------------------------------------------%n");
         System.out.println("Total Items: " + getTotalItems());
-        System.out.println("Order Total: $" + calculateTotal() + "\n");
+        System.out.printf("Order Total: $%.2f", calculateTotal());
+        System.out.println();
     }
 
     public Vector<OrderItem> getItems() {

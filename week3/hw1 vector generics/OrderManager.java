@@ -1,7 +1,7 @@
 import java.util.Vector;
 
 public class OrderManager {
-    private Vector<Order> orders;
+    Vector<Order> orders;
 
     public OrderManager() {orders = new Vector<>();}
 

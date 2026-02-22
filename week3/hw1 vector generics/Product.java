@@ -31,7 +31,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product ID: " + this.productId + " | " + "Product Name: " + this.name + " | " + "Product Category: " + this.category + " | " + "Product Price: " + this.price
+        return "Product ID: " + this.productId + " | " + "Product Name: " + this.name + " | " + "Product Category: " + this.category + " | " + "Product Price: $" + this.price
                 + " | " + "Quantity in Stock: " + this.quantityInStock + " | " + "Supplier Name: " + this.supplier;
     }
 
