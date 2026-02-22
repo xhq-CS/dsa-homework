@@ -1,0 +1,64 @@
+1. Brief Class Description
+===============================================
+Product -
+Overrides hashcode, toString, and equals.
+Product in an inventory, stores product Id, name, category, price, quantity in stock, supplier.
+
+Product Inventory -
+Represents a collection of product objects via vector.
+Has adding, removing, search by ID, filter, low stock, inventory value, and vector capacity methods.
+
+OrderItem -
+Just shows a item within an order.
+Takes in product Id, name, quantity, etc kinda like Product class except it shows subtotal instead of supplier.
+
+Order -
+Store Customer's order, the total OrderItem objects, order Id, customer name, date, status of the order
+Has methods like adding and removing, total cost, status update on order, and printing order details.
+
+Order Manager -
+Manager of orders placed or created. Has adding orders, canceling order, finding orders, getPending order,
+filtering by status or customer to get order details, total revenue, total order count, and print every order in the system.
+
+Vector Utils -
+Has generic methods utilized to swap elements, find max element, filter products,
+return sum of numbers, returns average of numbers all via generics.
+
+Generic Container -
+Vector backed class. Has add, remove, remove, size, getAll, clear, contains, and addAll methods.
+
+InventorySystemMain -
+The most tedious of all is the main class. Shows the workings of the code, shows off system features like
+inventory managment, order processing, comprehrensive test to make sure everything works and prints along side a very
+interactive menu.
+
+2. Comiple and Run
+===============================================
+Just compile files and run Main.java or InventorySystemMain.java
+-InventorySystemMain.java test everything and prints before the interactive menu comes up
+
+3. Challenges
+===============================================
+- Finding the right syntax and code for memory portion was hard
+- Making sure edge cases are handled EVERY TIME
+- Trying to understand the Vector capacity part
+- Some parts were vague and hard to understand so I tried my best
+
+4. What I Learned about Vectors and Generics
+===============================================
+- Difference between Vectors and ArrayList
+- How to utilize edge cases
+- Understand how capacity and affect performance, memory usage and speed
+- How to design different modular systems
+
+5. Vector Comparison Summary(Task 3.3)
+===============================================
+-Performance Observed-
+ArrayList is faster in time to add 11.54ms versus Vector's 26.94ms
+
+-Choose Vector-
+When dealing with legacy code and need thread safety
+
+-Choose ArrayList-
+For more modern and higher performance based. Faster than Vector in absences of syncs which
+allows for operations like add(), remove().

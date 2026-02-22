@@ -36,8 +36,6 @@ public class VectorComparisonDemo {
 
         //-------------------- VECTOR MEMORY --------------------
         System.gc();
-        // Vector
-        System.gc();
         long vMem = rt.totalMemory() - rt.freeMemory();
         Vector<Product> v = new Vector<>();
         for (int i = 0; i < add; i++) v.add(new Product("V"+i, "P"+i, "C", 1.0, 1, "S"));
