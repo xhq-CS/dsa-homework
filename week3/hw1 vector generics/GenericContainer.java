@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.Vector;
 
 public class GenericContainer<T> {
@@ -15,7 +16,21 @@ public class GenericContainer<T> {
         return items.get(index);
     }
 
-    public boolean remove(T item) {return items.remove(item);}
+    public boolean remove(T item) {
+        if (item == null || items == null || items.isEmpty()) {
+            return false;
+        }
+        boolean removed = false;
+        Iterator<T> it = items.iterator();
+        while (it.hasNext()) {
+            T temp = it.next();
+            if (item.equals(temp)) {
+                it.remove();
+                removed = true;
+            }
+        }
+        return removed;
+    }
 
     public int size() {return items.size();}
 
