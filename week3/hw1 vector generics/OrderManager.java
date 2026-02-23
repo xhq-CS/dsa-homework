@@ -63,7 +63,7 @@ public class OrderManager {
                 totalRevenue += order.calculateTotal();
             }
         }
-        return totalRevenue;
+        return Math.round(totalRevenue * 100.0) / 100.0;
     }
 
     public void cancelOrder(String orderId) {

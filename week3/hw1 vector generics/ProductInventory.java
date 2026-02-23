@@ -95,7 +95,7 @@ public class ProductInventory {
             }
             totalValue += p.getQuantityInStock() * p.getPrice();
         }
-        return totalValue;
+        return Math.round(totalValue * 100.0) / 100.0;
     }
 
     public void updateStock(String productId, int quantityChange) {

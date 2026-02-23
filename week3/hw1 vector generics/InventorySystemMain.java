@@ -96,6 +96,8 @@ public class InventorySystemMain {
 
     public static void createOrder(Scanner input, OrderManager orderManager) {
         int items;
+        int qty;
+        double unitPrice;
 
         System.out.print("Enter Order ID: ");
         String orderId = input.nextLine().trim();
@@ -131,13 +133,36 @@ public class InventorySystemMain {
             System.out.print("Product Name: ");
             String pname = input.nextLine().trim();
 
-            System.out.print("Quantity: ");
-            int qty = input.nextInt();
+            while(true) {
+                System.out.print("Enter Quantity In Stock: ");
+                String line = input.nextLine().trim();
 
-            System.out.print("Unit Price: ");
-            double unitPrice = input.nextDouble();
-            input.nextLine();
+                try {
+                    qty = Integer.parseInt(line);
+                    if (qty <= 0) {
+                        System.out.println("Quantity cannot be zero or negative! Try again!");
+                        continue;
+                    }
+                    break;
+                } catch (NumberFormatException e) {
+                    System.out.println("Numbers only PLEASE!");
+                }
+            }
 
+            while (true) {
+                System.out.print("Unit Price: ");
+                String line = input.nextLine().trim();
+                try {
+                    unitPrice = Double.parseDouble(line);
+                    if (unitPrice < 0) {
+                        System.out.println("Number cannot be negative! Try again!");
+                        continue;
+                    }
+                    break;
+                }  catch (NumberFormatException e) {
+                    System.out.println("Numbers only PLEASE!");
+                }
+            }
             order.addItem(new OrderItem(pid, pname, qty, unitPrice));
         }
 
@@ -148,7 +173,7 @@ public class InventorySystemMain {
     private static void generateReports(Scanner input, ProductInventory inventory, OrderManager orderManager) {
         System.out.println("---------- Generated Reports ----------");
         System.out.println("Total Products: " + inventory.getTotalProducts());
-        System.out.println("Total Inventory Value: $" + inventory.getTotalInventoryValue());
+        System.out.printf("Total inventory value: $%.2f%n", inventory.getTotalInventoryValue());
 
         System.out.print("Low Stock Threshold: ");
         int threshold = Integer.parseInt(input.nextLine().trim());
