@@ -39,27 +39,27 @@ public class Main {
         GenericContainer<String> stringContainer = new GenericContainer<>();
         stringContainer.add("Six");
         stringContainer.add("Seven");
-        System.out.println("String size: " + stringContainer.size());
-        System.out.println("String get(0): " + stringContainer.get(0));
-        System.out.println("String contains: " + stringContainer.contains("Seven"));
-        System.out.println("String removed: " + stringContainer.remove("Seven"));
-        System.out.println("String size after remove: " + stringContainer.size() + "\n");
+        System.out.println("Total Strings: " + stringContainer.size());
+        System.out.println("Get String: " + stringContainer.get(0));
+        System.out.println("Contains String? " + stringContainer.contains("Seven"));
+        System.out.println("Removed String? " + stringContainer.remove("Seven"));
+        System.out.println("String Size After Removal: " + stringContainer.size() + "\n");
 
         GenericContainer<Integer> intContainer = new GenericContainer<>();
         intContainer.add(6);
         intContainer.add(7);
-        System.out.println("Int size: " + intContainer.size());
-        System.out.println("Int get(index): " + intContainer.get(1));
-        System.out.println("Int contains 7: " + intContainer.contains(7) + "\n");
+        System.out.println("Total Ints: " + intContainer.size());
+        System.out.println("Get Int: " + intContainer.get(1));
+        System.out.println("Contains Int? " + intContainer.contains(7) + "\n");
 
         GenericContainer<Product> productContainer = new GenericContainer<>();
         productContainer.add(new Product("B123", "Poland Spring", "Beverage", 1.89, 36, "WaterBoy"));
         productContainer.add(new Product("AP101", "Laptop", "Electronics", 599.99, 2, "ElectroBoy"));
-        System.out.println("Product size: " + productContainer.size());
-        System.out.println("Product get(index): " + productContainer.get(0));
+        System.out.println("Total Products: " + productContainer.size());
+        System.out.println("Get Product: " + productContainer.get(0));
 
         productContainer.clear();
-        System.out.println("Product after clear: " + productContainer.size() + "\n");
+        System.out.println("Product Size After Removal: " + productContainer.size() + "\n");
 
         //----------------- VectorUtils sumNumber & averageNumber Test -----------------
         Vector<Integer> ints = new Vector<>();

@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Vector;
 import java.util.Scanner;
 
@@ -94,6 +95,8 @@ public class InventorySystemMain {
     }
 
     public static void createOrder(Scanner input, OrderManager orderManager) {
+        int items;
+
         System.out.print("Enter Order ID: ");
         String orderId = input.nextLine().trim();
 
@@ -104,9 +107,20 @@ public class InventorySystemMain {
         String date = input.nextLine().trim();
         Order order = new Order(orderId, customer, date, "Pending");
 
-        System.out.print("How many items are in this order? ");
-        int items = input.nextInt();
-        input.nextLine();
+        while (true) {
+            System.out.print("How many items are in this order? ");
+            String line = input.nextLine().trim();
+            try  {
+                items = Integer.parseInt(line);
+                if (items <= 0) {
+                    System.out.println("Cannot have 0 or less items in this order!");
+                    continue;
+                }
+                break;
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid Input! Please try again!");
+            }
+        }
 
         for (int i = 1; i <= items; i++) {
             System.out.println("\nItem " + i + ":");
