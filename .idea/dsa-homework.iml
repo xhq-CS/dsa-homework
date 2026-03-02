@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/week3/HW2 ArrayList Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week3/hw1 vector generics" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
