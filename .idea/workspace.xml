@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad87991-2140-40d8-a93e-200f3e4fb77d" name="Changes" comment="HW1...finished!">
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/EnrollmentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dsa-homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dsa-homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/GenericContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/GenericContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/InventorySystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/InventorySystemMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/OrderManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/ProductInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/ProductInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/VectorComparisonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/VectorComparisonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/VectorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/VectorUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/hw1 vector generics/readMe" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW1 Vector Generics/readMe" afterDir="false" />
-    </list>
+    <list default="true" id="aad87991-2140-40d8-a93e-200f3e4fb77d" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,30 +44,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ComprehensiveTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InventorySystemMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VectorComparisonDemo.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ComprehensiveTest.executor": "Run",
+    "Application.InventorySystemMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OrderTest.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.VectorComparisonDemo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="dsa-homework" />
@@ -125,7 +107,7 @@
       <workItem from="1771963648404" duration="4588000" />
       <workItem from="1772002461552" duration="429000" />
       <workItem from="1772034101267" duration="20496000" />
-      <workItem from="1772427142126" duration="7219000" />
+      <workItem from="1772427142126" duration="7534000" />
     </task>
     <task id="LOCAL-00001" summary="up to part 3!">
       <option name="closed" value="true" />
@@ -175,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771809401210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772434729045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772434729045</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up to part 3!" />
     <MESSAGE value="HW1...finished!" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW1...finished!" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
