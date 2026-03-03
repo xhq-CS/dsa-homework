@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private String studentId;
     private String firstName;
     private String lastName;
@@ -63,5 +63,20 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(studentId);
+    }
+
+
+    @Override
+    public int compareTo(Student other) {
+        if (other == null) {return 1;}
+        int gpaCompare = Double.compare(this.getGpa(), other.getGpa());
+        if (gpaCompare != 0) {return gpaCompare;}
+
+        String a = this.getStudentId();
+        String b = other.getStudentId();
+        if (a == null && b == null) {return 0;}
+        if (a == null) {return -1;}
+        if (b == null) {return 1;}
+        return a.compareTo(b);
     }
 }

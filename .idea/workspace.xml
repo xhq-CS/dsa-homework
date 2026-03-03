@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aad87991-2140-40d8-a93e-200f3e4fb77d" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/CourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dsa-homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dsa-homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Enrollment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/GenericContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/InventorySystemMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/OrderManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/ProductInventory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/StudentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/VectorComparisonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/VectorUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dsa-homework/readMe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/OrderManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week3/ProductInventory.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/ArrayListOperationsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/ArrayListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/ArrayListVsArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/GenericQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/GenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/CourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/CourseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +58,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListOperationsDemo.executor": "Run",
+    "Application.ArrayListVsArrayDemo.executor": "Run",
     "Application.ComprehensiveTest.executor": "Run",
     "Application.InventorySystemMain.executor": "Run",
     "Application.Main.executor": "Run",
@@ -135,7 +124,9 @@
       <workItem from="1771963648404" duration="4588000" />
       <workItem from="1772002461552" duration="429000" />
       <workItem from="1772034101267" duration="20496000" />
-      <workItem from="1772427142126" duration="7838000" />
+      <workItem from="1772427142126" duration="7902000" />
+      <workItem from="1772488098165" duration="2169000" />
+      <workItem from="1772512745497" duration="13109000" />
     </task>
     <task id="LOCAL-00001" summary="up to part 3!">
       <option name="closed" value="true" />
@@ -201,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772434851860</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772435075783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772435075783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
