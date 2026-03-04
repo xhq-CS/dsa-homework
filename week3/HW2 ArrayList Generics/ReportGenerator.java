@@ -6,13 +6,11 @@ public class ReportGenerator {
             System.out.println("Invalid input.");
             return;
         }
-
         Student s = sm.findStudent(studentId);
         if (s == null) {
             System.out.println("Student not found.");
             return;
         }
-
         ArrayList<Enrollment> enrollments = em.getEnrollmentsByStudent(studentId);
 
         System.out.println("-------- Student Report --------");
@@ -27,7 +25,6 @@ public class ReportGenerator {
 
             System.out.println("- " + e.getCourseCode() + " | " + e.getSemester() + " | Grade: " + grade);
         }
-
         double gpa = em.calculateStudentGpa(studentId);
         System.out.printf("Calculated Enrollment GPA: %.2f%n", gpa);
         System.out.println();
