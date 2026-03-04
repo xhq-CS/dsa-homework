@@ -25,7 +25,7 @@ public class StudentManagementSystemMain {
             try {
                 gpa = Double.parseDouble(line);
                 if (gpa < 0.0 || gpa > 4.0) {
-                    System.out.println("GPA must be between 0 and 4");
+                    System.out.println("GPA must be between 0.0 and 4.0");
                     continue;
                 }
                 break;
@@ -346,17 +346,38 @@ public class StudentManagementSystemMain {
             option = menuInt(input);
 
             switch (option) {
-                case 1: addStudent(input, sm); {break;}
-                case 2: removeStudent(input, sm); {break;}
-                case 3: findStudent(input, sm); {break;}
-                case 4: listAllStudents(sm); {break;}
-                case 5: addCourse(input, cm); {break;}
-                case 6: enrollStudent(input, sm, cm, em); {break;}
-                case 7: assignGrade(input, em); {break;}
-                case 8: calculateStudentGpa(input, sm, em); {break;}
-                case 9: generateReports(sm, cm, em); {break;}
-                case 10: System.out.println("Exiting Now!!!"); {break;}
-                default: {break;}
+                case 1:
+                    addStudent(input, sm);
+                    break;
+                case 2:
+                    removeStudent(input, sm);
+                    break;
+                case 3:
+                    findStudent(input, sm);
+                    break;
+                case 4:
+                    listAllStudents(sm);
+                    break;
+                case 5:
+                    addCourse(input, cm);
+                    break;
+                case 6:
+                    enrollStudent(input, sm, cm, em);
+                    break;
+                case 7:
+                    assignGrade(input, em);
+                    break;
+                case 8:
+                    calculateStudentGpa(input, sm, em);
+                    break;
+                case 9:
+                    generateReports(sm, cm, em);
+                    break;
+                case 10:
+                    System.out.println("Exiting Now!!!");
+                    break;
+                default:
+                    break;
             }
         } while (option != 10);
         input.close();

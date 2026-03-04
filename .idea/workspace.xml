@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aad87991-2140-40d8-a93e-200f3e4fb77d" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/readMe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/ReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/ReportGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/StudentManagementSystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/StudentManagementSystemMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,37 +48,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayListOperationsDemo.executor": "Run",
-    "Application.ArrayListVsArrayDemo.executor": "Run",
-    "Application.ComprehensiveTest.executor": "Run",
-    "Application.InventorySystemMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.OrderTest.executor": "Run",
-    "Application.StudentManagementSystemMain.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.VectorComparisonDemo.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListOperationsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListVsArrayDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComprehensiveTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InventorySystemMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentManagementSystemMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VectorComparisonDemo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="dsa-homework" />
@@ -120,7 +120,8 @@
       <workItem from="1772427142126" duration="7902000" />
       <workItem from="1772488098165" duration="2169000" />
       <workItem from="1772512745497" duration="13320000" />
-      <workItem from="1772577765878" duration="6104000" />
+      <workItem from="1772577765878" duration="6818000" />
+      <workItem from="1772593067520" duration="3446000" />
     </task>
     <task id="LOCAL-00001" summary="up to part 3!">
       <option name="closed" value="true" />
@@ -210,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772583852590</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772584312981</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772584312981</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772584361388</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772584361388</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

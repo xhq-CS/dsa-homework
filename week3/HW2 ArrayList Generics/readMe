@@ -1,0 +1,109 @@
+Student Management System
+=========================
+
+CLASS DESCRIPTION
+-----------------
+Student.java
+-Represents student info with (ID, name, email, gpa, major, and year)
+-Includes and overrides toString,equals, and hashCode
+-Implements Comparable<Student> for generic methods
+
+StudentManager.java
+-Manages students using ArrayList<Student>
+-Has methods like add, remove, find students, gpa calculation
+-Contains filter methods for major, year, and honor roll
+-Returns total num of students and list of different majors
+
+Course.java
+-Contains course info (courseCode, courseName, credits, instructor, and maxEnrollment)
+-Uses ArrayList<String> to store prerequisites
+-Implements methods like addPrerequisites, hasPrerequisites, and getPrerequisites
+
+CourseManager.java
+-Manages different courses through ArrayList<Course>
+-Has add, find, get course by instructor, getAvailableCourses, and printAllCourses
+
+Enrollment.java
+-Stores enrollment information like (enrollment Id, student id, course code, grade, and semester)
+-has method getGradePoints for grade conversion from letter to decimal
+-has method isPassing as edge to make sure the only letter grade you get is either 'A', 'B', 'C', 'D', and not 'F'
+
+EnrollmentManager.java
+-Enrolls students via enrollment info and manages them via ArrayList<Enrollment>
+-Prevents duplicates, has methods drop enrollment, find enrollment, get enrollment, and assign grade
+-Also calculates student GPA from all enrolled courses, can print enrollment info
+
+ArrayListOperationsDemo.java
+-Demos turning array into arraylist, arraylist to array
+-Shows subList behavior, sorting with comparator, and searching via indexOf, contains, and binarySearch
+
+ArrayListVsArrayDemo.java
+-Demos arrays vs arraylist comparison, measures time and performance of adding students and accessing students
+
+ArrayListUtils.java
+-Generic utilities implementation with swap, findMax, filter, reverse, merge
+-Showcase bounded generics like sum, average, and filterAbove
+-Introduces wildcards upper bound, lower bound, and unbounded
+
+GenericList.java
+-Wrapper classes used on ArrayList<T>
+-has getAll, addAll, and addAllFrom to add from arraylist and other generic lists
+
+-GenericStack.java
+-Stack implementation with ArrayList<T>
+-methods push, pop, peek, size, isEmpty, clear
+
+GenericQueue.java
+-Queue implementation with ArrayList<T>
+-methods enqueue, dequeue, peek, size, isEmpty
+
+Pair.java
+-Pair class with generics
+-fields first and second pair, getters and setters, toString, equals, and hashCode
+
+StudentManagementSystemMain.java
+-Houses the interactive menu that implements all the main managers like StudentManager, CourseManager, and EnrollmentManager
+-Contains menu option for adding student, removing student, finding student, adding course, enrolling student to course,
+assigning course grade, calculate gpa(all courses), and generates report
+
+ReportGenerator.java
+-Uses the manager classes to generate report of student info, course info, major info, and honor roll info
+
+HOW TO COMPILE & RUN
+--------------------
+-Compile files
+-Run StudentManagementSystemMain.java
+-Run ArrayListOperationsDemo.java
+-Run ArrayListVsArrayDemo.java
+
+DESIGN DECISIONS
+----------------
+-No null edge case for Enrollment grade
+-Enrollment ID are automatically generated
+-Using ArrayList for students, courses, and enrollments for size change
+-Prerequisites are stored as strings
+
+CHALLENGES ENCOUNTERED
+----------------------
+-Handling as much edge cases as I can think of and testing
+-Careful use of type bounds for Generic methods to distinguish from raw types
+-Syntax difficulty
+-Understanding comparator approach
+
+WHAT I LEARNED ABOUT ARRAYLISTS AND GENERICS
+--------------------------------------------
+-Use arraylist for size changes and anything that has to do with adding removing and resizing
+-Generic methods can be recycled for different types
+-Bounded generics ensure method safety
+
+COMPARISON OF ARRAYLIST VS ARRAY
+--------------------------------
+Arrays
+-More tedious, adding and removing requires manual shifting and resizing
+-Allows direct access to data
+
+ArrayList
+-Adding, removing, and resizing is easier. Array will automatically grow and shrink.
+-O(1) time complexity
+-Easier to use and manage
+
