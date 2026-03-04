@@ -51,7 +51,6 @@ public class StudentManagementSystemMain {
                 System.out.println("Numbers only PLEASE!");
             }
         }
-
         sm.addStudent(new Student(id, fn, ln, email, gpa, major, year));
         System.out.println("Student added!\n");
     }
@@ -101,7 +100,6 @@ public class StudentManagementSystemMain {
                 System.out.println("Numbers only PLEASE!");
             }
         }
-
         System.out.print("Enter Instructor: ");
         String instructor = input.nextLine().trim();
 
@@ -129,7 +127,6 @@ public class StudentManagementSystemMain {
             c.addPrerequisite(p);
             System.out.print("Add another prerequisite: ");
         }
-
         cm.addCourse(c);
         System.out.println("Course added!\n");
     }
@@ -150,7 +147,6 @@ public class StudentManagementSystemMain {
             System.out.println("Course not found!\n");
             return;
         }
-
         System.out.print("Enter Semester (ex. Fall 2026): ");
         String semester = input.nextLine().trim();
 
@@ -172,7 +168,6 @@ public class StudentManagementSystemMain {
             }
             System.out.println("Invalid grade. Enter ONLY A, B, C, D, or F.");
         }
-
         em.assignGrade(eid, grade);
         System.out.println("Grade assigned!\n");
     }
@@ -185,7 +180,6 @@ public class StudentManagementSystemMain {
             System.out.println("Student not found!\n");
             return;
         }
-
         double gpa = em.calculateStudentGpa(id);
         System.out.printf("Calculated GPA: %.2f%n%n", gpa);
     }
@@ -276,7 +270,6 @@ public class StudentManagementSystemMain {
         } catch (NumberFormatException e) {
             System.out.println("Invalid option. Integer only!");
         }
-
         return option;
     }
 
@@ -365,7 +358,6 @@ public class StudentManagementSystemMain {
                 case 10: System.out.println("Exiting Now!!!"); {break;}
                 default: {break;}
             }
-
         } while (option != 10);
         input.close();
     }

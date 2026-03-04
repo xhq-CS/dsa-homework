@@ -38,13 +38,11 @@ public class ReportGenerator {
             System.out.println("Invalid input.");
             return;
         }
-
         Course c = cm.findCourse(courseCode);
         if (c == null) {
             System.out.println("Course not found.");
             return;
         }
-
         ArrayList<Enrollment> enrollments = em.getEnrollmentsByCourse(courseCode);
         ArrayList<String> studentIds = em.getStudentsInCourse(courseCode);
 
@@ -56,10 +54,8 @@ public class ReportGenerator {
         for (String id : studentIds) {
             System.out.println("- " + id);
         }
-
         double sumPoints = 0.0;
         int gradedCount = 0;
-
         for (Enrollment e : enrollments) {
             if (e == null) continue;
             String g = e.getGrade();
@@ -68,14 +64,12 @@ public class ReportGenerator {
             sumPoints += e.getGradePoints();
             gradedCount++;
         }
-
         if (gradedCount == 0) {
             System.out.println("Average grade: N/A");
         } else {
             double avg = sumPoints / gradedCount;
             System.out.printf("Average grade points: %.2f%n", avg);
         }
-
         System.out.println();
     }
 
@@ -84,7 +78,6 @@ public class ReportGenerator {
             System.out.println("Invalid input.");
             return;
         }
-
         ArrayList<Student> students = sm.getStudentsByMajor(major);
 
         System.out.println("-------- Major Report --------");
@@ -95,7 +88,6 @@ public class ReportGenerator {
             if (s == null) continue;
             System.out.println("- " + s);
         }
-
         double avg = sm.getAverageGpaByMajor(major);
         System.out.printf("Average GPA By Major: %.2f%n", avg);
         System.out.println();
@@ -106,7 +98,6 @@ public class ReportGenerator {
             System.out.println("Invalid input!");
             return;
         }
-
         ArrayList<Student> honor = sm.getHonorStudents(minGpa);
 
         System.out.println("-------- Honor Roll Report --------");
@@ -117,7 +108,6 @@ public class ReportGenerator {
             if (s == null) continue;
             System.out.println("- " + s);
         }
-
         System.out.println();
     }
 }
