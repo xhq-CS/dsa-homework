@@ -206,10 +206,10 @@ public class StudentManagementSystemMain {
         ArrayList<Student> cs = sm.getStudentsByMajor("Computer Science");
         if (cs.size() >= 2) {
             ArrayListUtils.swap(cs, 0, 1);
-            System.out.println("Swapped CS list (0,1): " + cs);
+            System.out.println("Swapped CS Elements (0,1): " + cs);
         }
         Student max = ArrayListUtils.findMax(cs);
-        System.out.println("Max CS Student: " + max);
+        System.out.println("Max CS Element: " + max);
 
         //Generic
         System.out.println("\n--- Generic Data Structures ---");
@@ -282,10 +282,10 @@ public class StudentManagementSystemMain {
         sm.addStudent(new Student("S004", "Wumpus", "Wumpus", "wumpus@university.edu", 3.2, "Zoology", 1));
         sm.addStudent(new Student("S005", "Jong", "Kim", "kju@university.edu", 3.0, "History", 4));
         sm.addStudent(new Student("S006", "Steve", "Jobs", "stevejobs@university.edu", 3.1, "Business", 2));
-        sm.addStudent(new Student("S007", "Mark", "SuckABird", "MarkZuck@university.edu", 3.7, "CS", 1));
+        sm.addStudent(new Student("S007", "Mark", "SuckABird", "MarkZuck@university.edu", 3.7, "Computer Science", 1));
         sm.addStudent(new Student("S008", "Jeff", "Bezos", "jbezos@university.edu", 2.9, "Physics", 3));
         sm.addStudent(new Student("S009", "LeGoat", "James", "kingjames@university.edu", 2.5, "Exercise Science", 2));
-        sm.addStudent(new Student("S010", "Kevin", "Nguyen", "knguyen@university.edu", 3.4, "CS", 3));
+        sm.addStudent(new Student("S010", "Kevin", "Nguyen", "knguyen@university.edu", 3.4, "Computer Science", 3));
 
         //5 courses
         Course c1 = new Course("CISC1110", "Intro to CS", 4, "Prof. Jordan", 30);

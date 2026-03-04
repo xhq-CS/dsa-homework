@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aad87991-2140-40d8-a93e-200f3e4fb77d" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/readMe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/StudentManagementSystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/HW2 ArrayList Generics/StudentManagementSystemMain.java" afterDir="false" />
     </list>
@@ -121,7 +120,7 @@
       <workItem from="1772488098165" duration="2169000" />
       <workItem from="1772512745497" duration="13320000" />
       <workItem from="1772577765878" duration="6818000" />
-      <workItem from="1772593067520" duration="3446000" />
+      <workItem from="1772593067520" duration="5289000" />
     </task>
     <task id="LOCAL-00001" summary="up to part 3!">
       <option name="closed" value="true" />
@@ -227,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772584361388</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update">
+      <option name="closed" value="true" />
+      <created>1772597738623</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772597738623</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
