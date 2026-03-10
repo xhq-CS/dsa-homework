@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_24" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/week3/HW2 ArrayList Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week3/hw1 vector generics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week6/Pirate Lab" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
