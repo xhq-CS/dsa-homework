@@ -6,6 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/week3/HW2 ArrayList Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week3/hw1 vector generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week6/Pirate Lab" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week6" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
