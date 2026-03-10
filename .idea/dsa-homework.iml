@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_24" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Week 6" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week 6/Pirate_Lab" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Week 1/day2" />
     </content>
