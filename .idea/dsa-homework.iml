@@ -3,9 +3,6 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_24" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Week 1" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week 2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week 3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week 3/HW2 ArrayList Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week 3/hw1 vector generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week 6" isTestSource="false" />
