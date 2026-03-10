@@ -57,8 +57,8 @@ GenericQueue.java
 -Queue implementation with ArrayList<T>
 -methods enqueue, dequeue, peek, size, isEmpty
 
-Pair.java
--Pair class with generics
+Pokemon Generics Lab.Pair.java
+-Pokemon Generics Lab.Pair class with generics
 -fields first and second pair, getters and setters, toString, equals, and hashCode
 
 StudentManagementSystemMain.java

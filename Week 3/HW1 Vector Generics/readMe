@@ -34,7 +34,7 @@ interactive menu.
 
 2. Comiple and Run
 ===============================================
-Just compile files and run Main.java or InventorySystemMain.java
+Just compile files and run Pokemon Generics Lab.Main.java or InventorySystemMain.java
 -InventorySystemMain.java test everything and prints before the interactive menu comes up
 
 3. Challenges
